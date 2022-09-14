@@ -1,9 +1,5 @@
 ### Hi, I'm Sheng.Fu. 👋
-<h1 align="center">
-  <a href="https://sunguoqi.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Have A Nice Day!">
-  </a>
-</h1>
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Have A Nice Day!">
 
 - 🔭 I’m now working for free.
 - 🌱 I’m a pupil of back-end learning. 
@@ -16,8 +12,6 @@
 
 ### GitHub streak
 <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=x931890193" align="middle" /></p>
-
-[//]: # ([![GitHub Streak]&#40;https://github-readme-streak-stats.herokuapp.com/?user=x931890193&#41;]&#40;https://git.io/streak-stats&#41;)
 
 
 ### Contributions
