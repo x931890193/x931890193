@@ -30,7 +30,7 @@
 <br>
 
 ### Contributions
-![](https://raw.githubusercontent.com/x931890193/x931890193/master/assert/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/x931890193/x931890193/master/assets/github-contribution-grid-snake.svg)
 
 <div align="middle">
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=x931890193&show_icons=true&hide_border=true">
