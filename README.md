@@ -1,6 +1,5 @@
 ### Hi, I'm Sheng.Fu. 👋
 
-<img align="right" alt="GIF" src="https://github.com/x931890193/x931890193/blob/master/assets/code.gif?raw=true" width="500" height="320"/>
 
 <h1 align="center">
   <a href="https://www.mongona.com/">
