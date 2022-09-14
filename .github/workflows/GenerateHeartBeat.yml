@@ -1,0 +1,39 @@
+# GitHub Action for generating a AppleWatchHeartBeat
+
+name: Generate HeartBeat
+
+on:
+  workflow_dispatch:
+    inputs:
+      time:
+        description: 'time list'
+        required: false
+      value:
+        description: 'value list'
+        required: false
+
+env:
+  # change env here
+  GITHUB_NAME: x931890193
+  GITHUB_EMAIL: ysudqfs@163.com
+
+jobs:
+  sync:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-go@v3
+        with:
+          go-version: '>=1.17.0'
+      - run: go version
+
+      - name: Get generate SVG
+        run: |
+          go run main.go $'${{ github.event.inputs.time }}' $'${{ github.event.inputs.value }}'
+      - name: Push README
+        run: |
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git config --local user.name "${{ env.GITHUB_NAME }}"
+          git commit -a -m 'update new heart' || echo "nothing to commit"
+          git push || echo "nothing to push"
