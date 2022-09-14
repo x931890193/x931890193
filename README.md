@@ -1,12 +1,11 @@
 ### Hi, I'm Sheng.Fu. 👋
 
+<img align="right" alt="GIF" src="https://github.com/x931890193/x931890193/blob/master/assets/code.gif?raw=true" width="500" height="320"/>
 
 <h1 align="center">
   <a href="https://www.mongona.com/">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D838F7&width=435&lines=Have+A+Nice+Day!" alt="Typing SVG"  align="center"/>  </a>
 </h1>
-
-<img align="right" alt="GIF" src="https://github.com/x931890193/x931890193/blob/master/assets/code.gif?raw=true" width="500" height="320"/>
 
 - 🔭 I’m now working for free.
 - 🌱 I’m a pupil of back-end learning. 
