@@ -30,7 +30,7 @@ jobs:
 
       - name: Get generate SVG
         run: |
-          go run main.go $'${{ github.event.inputs.time }}' $'${{ github.event.inputs.value }}'
+          go run main.go '${{ github.event.inputs.time }}' '${{ github.event.inputs.value }}'
       - name: Push README
         run: |
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
