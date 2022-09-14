@@ -1,9 +1,8 @@
 ### Hi, I'm Sheng.Fu. 👋
 
 <h1 align="center">
-  <a href="https://sunguoqi.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hava a Nice Day!&center=true&size=27">
-  </a>
+  <a href="https://www.mongona.com/">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D838F7&width=435&lines=Have+A+Nice+Day!" alt="Typing SVG" />  </a>
 </h1>
 
 - 🔭 I’m now working for free.
