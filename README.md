@@ -7,7 +7,7 @@
 
 - 🔭 I’m now working for free.
 - 🌱 I’m a pupil of back-end learning. 
-- 🤔 I’m currently coding in Golang Python and Rust and a little Vue.
+- 🤔 I’m currently coding in Golang, Python, Rust and a little Vue.
 - 💬 Be free to ask me about anything [here](https://github.com/x931890193/x931890193/issues).
 
 
