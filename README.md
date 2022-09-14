@@ -1,8 +1,7 @@
 ### Hi, I'm Sheng.Fu. 👋
 
-
 <h1 align="center">
-  <a href="https://www.mongona.com/">
+  <a href="https://www.mongona.com/" target="_blank">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=D838F7&width=435&lines=Have+A+Nice+Day!" alt="Typing SVG"  align="center"/>  </a>
 </h1>
 
@@ -11,14 +10,12 @@
 - 🤔 I’m currently coding in Golang, Python, Rust and a little Vue.
 - 💬 Be free to ask me about anything [here](https://github.com/x931890193/x931890193/issues).
 
-
 <br />
 <div align="center">
-  <a href="https://www.mongona.com"><img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue"></a>&emsp;
+  <a href="https://www.mongona.com" target="_blank"><img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue"></a>&emsp;
 <!-- 访客数统计徽标 -->
   <img src="https://visitor-badge.glitch.me/badge?page_id=x931890193" alt="访客统计" /></div>
 <br />
-
 
 ### Activity
 [![x931890193's github activity graph](https://activity-graph.herokuapp.com/graph?username=x931890193&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
