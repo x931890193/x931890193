@@ -7,7 +7,7 @@
 - 🌍 Visit My site [here](https://www.mongona.com).
 
 ### Activity
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=x931890193&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![x931890193's github activity graph](https://activity-graph.herokuapp.com/graph?username=x931890193&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 ### My Contributions
