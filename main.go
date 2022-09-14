@@ -14,7 +14,7 @@ func main() {
 		return
 	}
 	values := strings.Split(os.Args[2], "\n")
-	f, _ := os.Create("./assert/heart.svg")
+	f, _ := os.Create("assets/heart.svg")
 	_, err := f.Write([]byte(fmt.Sprintf(heartBeatTpl, values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9])))
 	if err != nil {
 		os.Stdout.Write([]byte(err.Error()))
