@@ -12,6 +12,5 @@
         <text fill="bisque" style="font-size:25px; font-family:Arial" transform="translate(-12.5 0)">84<animate attributeName="visibility" dur="12.0s" keyTimes="0.000;0.143;0.286;0.429;0.571;0.714;0.857;1" repeatCount="indefinite" values="hidden;hidden;hidden;hidden;visible;hidden;hidden;hidden" /></text>
         <text fill="bisque" style="font-size:25px; font-family:Arial" transform="translate(-12.5 0)">113<animate attributeName="visibility" dur="12.0s" keyTimes="0.000;0.143;0.286;0.429;0.571;0.714;0.857;1" repeatCount="indefinite" values="hidden;hidden;hidden;hidden;hidden;visible;hidden;hidden" /></text>
         <text fill="bisque" style="font-size:25px; font-family:Arial" transform="translate(-12.5 0)">98<animate attributeName="visibility" dur="12.0s" keyTimes="0.000;0.143;0.286;0.429;0.571;0.714;0.857;1" repeatCount="indefinite" values="hidden;hidden;hidden;hidden;hidden;hidden;visible;hidden" /></text>
-
     </g>
 </svg>
