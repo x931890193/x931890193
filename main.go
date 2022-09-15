@@ -15,22 +15,24 @@ func main() {
 	}
 	values := strings.Split(os.Args[2], "\n")
 
-	tpl := "        <text fill=\"bisque\" style=\"font-size:25px; font-family:Arial\" transform=\"translate(-12.5 0)\">%s<animate attributeName=\"visibility\" dur=\"12.0s\" keyTimes=\"0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1.0\" repeatCount=\"indefinite\" values=\"%s\" /></text>\n"
+	tpl := "        <text fill=\"bisque\" style=\"font-size:25px; font-family:Arial\" transform=\"translate(-12.5 0)\">%s<animate attributeName=\"visibility\" dur=\"12.0s\" keyTimes=\"%s\" repeatCount=\"indefinite\" values=\"%s\" /></text>\n"
 	f, _ := os.Create("assets/heart.svg")
 
 	value := ""
 	valuesLength := len(values)
 	hiddenSlice := make([]string, valuesLength)
+	keyTimes := make([]string, valuesLength+1)
 	for i := 0; i < valuesLength; i++ {
 		hiddenSlice[i] = "hidden"
+		keyTimes[i] = fmt.Sprintf("%.1f", float64(i)/10)
 	}
-
+	keyTimes[valuesLength] = fmt.Sprintf("%.1f", float64(valuesLength)/10)
 	for i := 0; i < valuesLength; i++ {
 		tmpHidden := make([]string, valuesLength)
 		copy(tmpHidden, hiddenSlice)
 		tmpHidden[i] = "visible"
 		tmpHidden = append(tmpHidden, "hidden")
-		value += fmt.Sprintf(tpl, values[i], strings.Join(tmpHidden, ";"))
+		value += fmt.Sprintf(tpl, values[i], strings.Join(keyTimes, ";"), strings.Join(tmpHidden, ";"))
 	}
 	_, err := f.Write([]byte(fmt.Sprintf(heartBeatTpl, value)))
 	if err != nil {
