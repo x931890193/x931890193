@@ -19,7 +19,7 @@
 <br />
 
 ### Activity
-[![x931890193's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=x931890193&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![x931890193's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=x931890193&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ### GitHub streak
 <!-- 连续提交代码天数记录 -->
