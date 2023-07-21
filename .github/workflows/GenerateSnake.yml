@@ -15,13 +15,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
 
-      - name: Generate Snake
-        uses: Platane/snk@master
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk@v3.0.0
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           gif_out_path: ./assets/github-contribution-grid-snake.gif
           svg_out_path: ./assets/github-contribution-grid-snake.svg
+        env:
+          # a github token is required to fetch the contribution calendar from github API
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7.2.1
